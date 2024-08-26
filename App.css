@@ -1,0 +1,97 @@
+.App {
+  position: relative;
+  font-family: Arial, sans-serif;
+  height: 100vh; /* Ensure full viewport height */
+  overflow: hidden;
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1; /* Send the video behind the content */
+}
+
+.video-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.navigation {
+  background-color:transparent;
+  color: bisque;
+  place-content: right;
+  padding: 25px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 425;
+  padding: 15;
+  overflow: hidden;
+  color: bisque;
+  place-content: right;
+}
+
+.navigation ul li {
+  display: inline;
+  margin-right: 15px;
+  color: bisque;
+  place-content: right;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: bisque;
+  place-content: right;
+}
+.div{
+  color: bisque;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 56px;
+  margin-top: 57px;
+  line-gap-override: 45;
+  width: 50%;
+}
+#para{
+  font-size: 19px;
+}
+.btn{
+  width: 325px;
+  height: 43px;
+  font-size: 21px;
+}
+.features{
+  background-color: bisque;
+  padding: 56px;
+}
+.div1{
+  display: flex;
+  flex-direction: row;
+}
+.text{
+  width: 50%;
+}
+#feat{
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(27, 24, 24);
+
+}
+#feature{
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(27, 24, 24);
+}
+#featuredescription{
+
+  font-family: 'Times New Roman', Times, serif;
+  color: rgba(27, 24, 24, 0.727);
+}
